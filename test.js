@@ -1,7 +1,5 @@
 //this is vanilla nodeJS
 const port = 3000;
-console.log(process.platform);
-console.log("hello world!")
 const http = require('http');
 const { hostname } = require('os');
 
