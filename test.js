@@ -6,7 +6,7 @@ const { hostname } = require('os');
 const server = http.createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-type', 'text/plain');
-    res.end('Hello world\n');
+    res.end('Testing with vanilla node HTTP module to check for MS Booking\n');
 })
 
 server.listen((port, hostname, () => {
