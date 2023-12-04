@@ -3,6 +3,7 @@ const port = 3000;
 const http = require('http');
 const { hostname } = require('os');
 
+// setting up http server with node
 const server = http.createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-type', 'text/plain');
